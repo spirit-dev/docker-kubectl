@@ -26,7 +26,7 @@ This repository is dedicated to oficial images used in our differents projects /
 
 - [**Alpine**](images/os/alpine/Readme.md)
 
-## TEST
+## Test
 
 ### Prerequisite
 
