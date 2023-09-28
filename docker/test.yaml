@@ -3,14 +3,14 @@ schemaVersion: "2.0.0"
 metadataTest:
   labels:
     - key: "layer"
-      value: "0"
+      value: "1"
     - key: "from"
-      value: "scratch"
-    - key: "ssense_official"
+      value: "gitlab-registry-internal.spirit-dev.net/infrastructure/docker/alpine"
+    - key: "spiritdev_official"
       value: "yes"
     - key: "maintainer"
-      value: "devops@ssense.com"
-  cmd: ["/bin/sh"]
+      value: "bordat.jean@gmail.com"
+  cmd: ["/usr/bin/kubectl"]
 
 commandTests:
   - name: "alpine version"
