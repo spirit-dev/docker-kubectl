@@ -1,7 +1,9 @@
 .ONESHELL:
 
+ALPINE_VERSION:=3.18
+
 CONTAINER_DEFINITION_FILE=docker/Dockerfile
-CONTAINER_BUILD_ARGS:="--build-arg alpine_version=3.18"
+CONTAINER_BUILD_ARGS:="--build-arg alpine_version=${ALPINE_VERSION}"
 CONTAINER_IMAGE_NAME=kubectl
 CONTAINER_IMAGE_TAG:=latest
 
