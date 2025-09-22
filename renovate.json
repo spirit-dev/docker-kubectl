@@ -2,18 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>templates/renovate-config//renovate/default"
-  ],
-  "regexManagers": [
-    {
-      "datasourceTemplate": "docker",
-      "depNameTemplate": "gitlab-registry-internal.spirit-dev.net/infrastructure/docker/alpine",
-      "fileMatch": [
-        "docker/\\.gitlab-ci\\.yml$"
-      ],
-      "matchStrings": [
-        "ALPINE_VERSION: \"(?<currentValue>[^\"]+)\""
-      ],
-      "versioningTemplate": "loose"
-    }
   ]
 }
