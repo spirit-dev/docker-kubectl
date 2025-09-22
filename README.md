@@ -1,8 +1,29 @@
-# DockerFiles
+# kubectl
+
+<!-- More info: https://github.com/Ileriayo/markdown-badges -->
+<!-- More info: https://shields.io/badges -->
+<!-- More info: https://badgesgenerator.com/ -->
+
+[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-kubectl-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-kubectl) <!-- markdownlint-disable MD041 -->
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-kubectl-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-kubectl)
+
+<!--TOC-->
+
+- [Documentation](#documentation)
+  - [Os](#os)
+- [TEST](#test)
+  - [Prerequisite](#prerequisite)
+  - [Linux](#linux)
+  - [MacOS](#macos)
+  - [Others](#others)
+  - [Usage](#usage)
+- [Resource](#resource)
+
+<!--TOC-->
 
 This repository is dedicated to oficial images used in our differents projects / microservices
 
-**Technically speaking**
+**Technically speaking** <!-- markdownlint-disable MD036 -->
 
 - CICD in place to ease build and push of images
 - Testing solution for images
@@ -24,9 +45,9 @@ This repository is dedicated to oficial images used in our differents projects /
 
 ### Os
 
-- [**Alpine**](images/os/alpine/Readme.md)
+- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/kubectl)
 
-## Test
+## TEST
 
 ### Prerequisite
 
